@@ -55,6 +55,12 @@ npm test
 #### Release History
 
 * 1.0.0 Initial release
+	* 1.0.1 fix bugs
+	* 1.0.2 fix bugs
+	* 1.0.3 fix bugs
+	* 1.0.4 fix bugs
+	* 1.0.5 fix bugs
+	* 1.0.6 fix bugs
 
 #### :fuelpump: How to contribute
 
