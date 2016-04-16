@@ -32,17 +32,17 @@ configuration option can be set as an obj like, and of course you can use a defa
 ```json
 {
 	"plugins": [
-        "gitbook-footer"
-    ],
-    "pluginsConfig": {
-        "gitbook-footer": {
+		"gitbook-footer"
+	],
+	"pluginsConfig": {
+		"gitbook-footer": {
 			"description": "modified at",
 			"format": "YYYY-MM-DD HH:mm:ss",
 			"copyright": "Copyright © aleen42",
 			"timeColor": "#666",
 			"copyrightColor": "#666"
-    	}
-    }
+		}
+	}
 }
 ```
 
