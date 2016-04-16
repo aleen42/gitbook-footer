@@ -1,13 +1,13 @@
 {
   "name": "gitbook-plugin-gitbook-footer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a gitbook-plugin for generating footer",
   "engines": {
     "gitbook": ">1.x.x"
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
