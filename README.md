@@ -65,6 +65,7 @@ npm test
 	* 1.0.8 update readme
 	* 1.0.9 update readme
 	* 1.1.0 version restrict
+	
 
 #### :fuelpump: How to contribute
 
