@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-page-footer",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "a gitbook-plugin for generating footer",
   "engines": {
     "gitbook": ">=3.0.0-pre.0"
