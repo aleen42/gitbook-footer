@@ -35,11 +35,11 @@ describe('tests', function () {
 				'timeColor': '#a10000',
 				'copyrightColor': '#a10000'
 			}
-        }).should.to.contain('<footer class="page-footer>\t\t\t\t<span class="copyright" style="color: #a10000 !important;">Copyright © aleen42 all right reserved， powered by Gitbook</span>\t\t\t\t<span class="description style="color: #a10000 !important;">modified at:');
+        }).should.to.contain('<footer class="page-footer><span class="copyright" style="color: #a10000 !important;">Copyright © aleen42 all right reserved， powered by Gitbook</span><span class="description style="color: #a10000 !important;">modified at:');
     });
 
     it('test case 2', function () {
-        gitbookFooter.test({}).should.to.contain('<footer class="page-footer>\t\t\t\t<span class="copyright" style="color: #666 !important;">Copyright © aleen42 all right reserved， powered by Gitbook</span>\t\t\t\t<span class="description style="color: #666 !important;">modified at:');
+        gitbookFooter.test({}).should.to.contain('<footer class="page-footer><span class="copyright" style="color: #666 !important;">Copyright © aleen42 all right reserved， powered by Gitbook</span><span class="description style="color: #666 !important;">modified at:');
     });
 
     it('test case 3', function () {
@@ -50,6 +50,6 @@ describe('tests', function () {
 				'copyright': 'Copyright © tester',
 				'timeColor': '#a10000'
 			}
-        }).should.to.contain('<footer class="page-footer>\t\t\t\t<span class="copyright" style="color: #666 !important;">Copyright © tester all right reserved， powered by Gitbook</span>\t\t\t\t<span class="description style="color: #a10000 !important;">Updated at:');
+        }).should.to.contain('<footer class="page-footer><span class="copyright" style="color: #666 !important;">Copyright © tester all right reserved， powered by Gitbook</span><span class="description style="color: #a10000 !important;">Updated at:');
     });
 });

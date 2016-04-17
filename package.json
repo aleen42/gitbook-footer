@@ -1,9 +1,9 @@
 {
   "name": "gitbook-plugin-page-footer",
-  "version": "1.1.9",
+  "version": "1.3.3",
   "description": "a gitbook-plugin for generating footer",
   "engines": {
-    "gitbook": ">=1.0.0"
+    "gitbook": ">=2.4.3"
   },
   "main": "./lib/index.js",
   "scripts": {
@@ -14,6 +14,7 @@
     "url": "git+https://github.com/aleen42/gitbook-footer.git"
   },
   "keywords": [
+    "gitbook",
     "gitbook-plugin",
     "footer"
   ],
@@ -27,7 +28,7 @@
   },
   "homepage": "https://github.com/aleen42/gitbook-footer#readme",
   "dependencies": {
-    "moment": "^2.12.0"
+    "moment": "^2.10.6"
   },
   "devDependencies": {
     "chai": "^3.5.0",

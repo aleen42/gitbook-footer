@@ -74,6 +74,20 @@ npm test
 	* 1.1.7 fix bugs
 	* 1.1.8 fix bugs
 	* 1.1.9 debug mode
+	* 1.2.0 debug mode
+	* 1.2.1 debug mode
+	* 1.2.2 debug mode
+	* 1.2.3 debug mode
+	* 1.2.4 debug mode
+	* 1.2.5 unused version
+	* 1.2.6 unused version
+	* 1.2.7 unused version
+	* 1.2.8 unused version
+	* 1.2.9 unused version
+	* 1.3.0 unused version
+	* 1.3.1 unused version
+	* 1.3.2 unused version
+	* 1.3.3 released version
 
 #### :fuelpump: How to contribute
 
