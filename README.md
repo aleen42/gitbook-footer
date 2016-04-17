@@ -68,6 +68,12 @@ npm test
 	* 1.1.1 configuration
 	* 1.1.2 configuration
 	* 1.1.3 fix bugs
+	* 1.1.4 fix bugs
+	* 1.1.5 fix bugs
+	* 1.1.6 fix bugs
+	* 1.1.7 fix bugs
+	* 1.1.8 fix bugs
+	* 1.1.9 debug mode
 
 #### :fuelpump: How to contribute
 
