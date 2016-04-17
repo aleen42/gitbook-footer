@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-page-footer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "a gitbook-plugin for generating footer",
   "engines": {
     "gitbook": ">=1.0.0"
@@ -34,12 +34,6 @@
     "mocha": "^2.4.5"
   },
   "gitbook": {
-    "properties": {
-      "configuration": {
-        "type": [ "string", "object" ],
-        "title": "Configuration mode",
-        "default": "auto"
-      }
-    }
+    "properties": {}
   }
 }
