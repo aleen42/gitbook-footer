@@ -67,6 +67,7 @@ npm test
 	* 1.1.0 version restrict
 	* 1.1.1 configuration
 	* 1.1.2 configuration
+	* 1.1.3 fix bugs
 
 #### :fuelpump: How to contribute
 
