@@ -37,6 +37,8 @@ configuration option can be set as an obj like, and of course you can use a defa
 	"pluginsConfig": {
 		"page-footer": {
 			"description": "modified at",
+			"author": "Aleen",
+			"wisdom": "More than a coder, more than a designer",
 			"format": "YYYY-MM-DD HH:mm:ss",
 			"copyright": "Copyright © aleen42",
 			"timeColor": "#666",
@@ -54,7 +56,7 @@ npm test
 
 #### Release History
 
-* 1.0.0 Initial release
+* ==================== **1.0.0 Initial release** ====================
 	* 1.0.1 fix bugs
 	* 1.0.2 fix bugs
 	* 1.0.3 fix bugs
@@ -87,7 +89,25 @@ npm test
 	* 1.3.0 unused version
 	* 1.3.1 unused version
 	* 1.3.2 unused version
-	* 1.3.3 released version
+	* ================ **1.3.3 released version** ================
+	* 1.3.4 add title
+	* 1.3.5 unused version
+	* 1.3.6 unused version
+	* 1.3.7 unused version
+	* 1.3.8 unused version
+	* 1.3.9 unused version
+	* 1.4.0 unused version
+	* 1.4.1 unused version
+	* 1.4.2 unused version
+	* ================ **1.4.3 released version** ================
+	* 1.4.4 unused version
+	* 1.4.5 unused version
+	* ================ **1.4.6 released version** ================
+	* 1.4.7 unused version
+	* 1.4.8 update readme
+	* 1.4.9 update readme
+* ==================== **2.0.0 Featuring configuration** ====================
+	* 2.0.1 update readme
 
 #### :fuelpump: How to contribute
 

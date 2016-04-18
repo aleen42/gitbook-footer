@@ -35,11 +35,11 @@ describe('tests', function () {
 				'timeColor': '#a10000',
 				'copyrightColor': '#a10000'
 			}
-        }).should.to.contain('<footer class="page-footer><span class="copyright" style="color: #a10000 !important;">Copyright © aleen42 all right reserved， powered by Gitbook</span><span class="description style="color: #a10000 !important;">modified at:');
+        }).should.to.contain(' \n\n<footer class="page-footer"><div class="header"><p class="title">Aleen<sup>&#174;</sup></p><p class="subtitle">More than a coder, more than a designer</p></div><span class="copyright" style="color: #a10000 !important;">Copyright &#169; aleen42 all right reserved， powered by Gitbook</span><span class="description" style="color: #a10000 !important;">modified at\n');
     });
 
     it('test case 2', function () {
-        gitbookFooter.test({}).should.to.contain('<footer class="page-footer><span class="copyright" style="color: #666 !important;">Copyright © aleen42 all right reserved， powered by Gitbook</span><span class="description style="color: #666 !important;">modified at:');
+        gitbookFooter.test({}).should.to.contain(' \n\n<footer class="page-footer"><div class="header"><p class="title">Aleen<sup>&#174;</sup></p><p class="subtitle">More than a coder, more than a designer</p></div><span class="copyright" style="color: #666 !important;">Copyright &#169; aleen42 all right reserved， powered by Gitbook</span><span class="description" style="color: #666 !important;">modified at\n');
     });
 
     it('test case 3', function () {
@@ -47,9 +47,9 @@ describe('tests', function () {
 			'page-footer': {
 				'description': 'Updated at',
 				'format': 'YYYY-MM-DD HH:mm:ss',
-				'copyright': 'Copyright © tester',
+				'copyright': 'Copyright &#169; tester',
 				'timeColor': '#a10000'
 			}
-        }).should.to.contain('<footer class="page-footer><span class="copyright" style="color: #666 !important;">Copyright © tester all right reserved， powered by Gitbook</span><span class="description style="color: #a10000 !important;">Updated at:');
+        }).should.to.contain(' \n\n<footer class="page-footer"><div class="header"><p class="title">Aleen<sup>&#174;</sup></p><p class="subtitle">More than a coder, more than a designer</p></div><span class="copyright" style="color: #666 !important;">Copyright &#169; tester all right reserved， powered by Gitbook</span><span class="description" style="color: #a10000 !important;">Updated at\n');
     });
 });
