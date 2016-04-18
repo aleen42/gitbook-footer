@@ -118,6 +118,7 @@ npm test
 	* 2.0.8 update readme
 	* 2.0.9 update readme
 	* 2.1.0 update readme
+	* 2.1.1 update style
 
 #### :fuelpump: How to contribute
 

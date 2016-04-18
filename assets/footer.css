@@ -1,6 +1,5 @@
 .page-footer {
   margin-top: 50px;
-  border-top: 1px solid #ccc;
   padding: 10px 0;
   font-size: 12px;
   position: relative
@@ -15,12 +14,6 @@
   float: right;
 }
 
-.header {
-  position: absolute;
-  top: -4em;
-  z-index: 9999;
-}
-
 .header p {
   margin: 0 !important;
   line-height: normal !important;
@@ -29,6 +22,11 @@
 .header p.title {
   font-size: 2em !important;
   margin-bottom: 5px;
+}
+
+.header p.subtitle {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
 }
 
 .header p > sup {
