@@ -43,7 +43,8 @@ configuration option can be set as an obj like, and of course you can use a defa
 			"format": "YYYY-MM-DD HH:mm:ss",
 			"copyright": "Copyright © aleen42",
 			"timeColor": "#666",
-			"copyrightColor": "#666"
+			"copyrightColor": "#666",
+			"utcOffset": 8
 		}
 	}
 }
@@ -119,6 +120,8 @@ npm test
 	* 2.0.9 update readme
 	* 2.1.0 update readme
 	* 2.1.1 update style
+	* 2.1.2 unused version
+	* 2.1.3 featuring Timezone
 
 #### :fuelpump: How to contribute
 
