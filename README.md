@@ -122,6 +122,9 @@ npm test
 	* 2.1.1 update style
 	* 2.1.2 unused version
 	* 2.1.3 featuring Timezone
+	* 2.1.4 fix bugs
+	* 2.1.5 fix bugs
+	* 2.1.6 fix bugs
 
 #### :fuelpump: How to contribute
 
