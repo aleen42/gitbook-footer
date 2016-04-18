@@ -115,6 +115,7 @@ npm test
 	* 2.0.5 update readme
 	* 2.0.6 update readme
 	* 2.0.7 update readme
+	* 2.0.8 update readme
 
 #### :fuelpump: How to contribute
 
