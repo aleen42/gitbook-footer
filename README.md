@@ -44,7 +44,7 @@ configuration option can be set as an obj like, and of course you can use a defa
 			"copyright": "Copyright © aleen42",
 			"timeColor": "#666",
 			"copyrightColor": "#666",
-			"utcOffset": 8
+			"utcOffset": "8"
 		}
 	}
 }
@@ -125,6 +125,7 @@ npm test
 	* 2.1.4 fix bugs
 	* 2.1.5 fix bugs
 	* 2.1.6 fix bugs
+	* 2.1.7 update readme
 
 #### :fuelpump: How to contribute
 
