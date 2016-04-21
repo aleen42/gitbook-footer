@@ -201,6 +201,7 @@ npm test
 	* 2.8.8 unused version
 	* 2.8.9 unused version
 * ==================== **3.0.0 Featuring Qrcode** ====================
+	* 3.0.1 update style
 
 #### :fuelpump: How to contribute
 

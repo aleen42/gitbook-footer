@@ -39,6 +39,7 @@
 }
 
 .qr-right {
+  padding: 0 10px !important;
   vertical-align: top !important;
   flex: 1;
 }
