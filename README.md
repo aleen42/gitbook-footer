@@ -41,10 +41,12 @@ configuration option can be set as an obj like, and of course you can use a defa
 			"author": "Aleen",
 			"wisdom": "More than a coder, more than a designer",
 			"format": "YYYY-MM-DD HH:mm:ss",
-			"copyright": "Copyright © aleen42",
+			"copyright": "Copyright &#169; aleen42",
 			"timeColor": "#666",
 			"copyrightColor": "#666",
-			"utcOffset": "8"
+			"utcOffset": "8",
+			"qrcode": true,
+			"baseUri": "https://aleen42.gitbooks.io/personalwiki/content/"
 		}
 	}
 }
@@ -126,6 +128,79 @@ npm test
 	* 2.1.5 fix bugs
 	* 2.1.6 fix bugs
 	* 2.1.7 update readme
+	* 2.1.8 unused version
+	* 2.1.9 unused version
+	* 2.2.0 unused version
+	* 2.2.1 unused version
+	* 2.2.2 unused version
+	* 2.2.3 unused version
+	* 2.2.4 unused version
+	* 2.2.5 unused version
+	* 2.2.6 unused version
+	* 2.2.7 unused version
+	* 2.2.8 unused version
+	* 2.2.9 unused version
+	* 2.3.0 unused version
+	* 2.3.1 unused version
+	* 2.3.2 unused version
+	* 2.3.3 unused version
+	* 2.3.4 unused version
+	* 2.3.5 unused version
+	* 2.3.6 unused version
+	* 2.3.7 unused version
+	* 2.3.8 unused version
+	* 2.3.9 unused version
+	* 2.4.0 unused version
+	* 2.4.1 unused version
+	* 2.4.2 unused version
+	* 2.4.3 unused version
+	* 2.4.4 unused version
+	* 2.4.5 unused version
+	* 2.4.6 unused version
+	* 2.4.7 unused version
+	* 2.4.8 unused version
+	* 2.4.9 unused version
+	* 2.5.0 unused version
+	* 2.5.1 unused version
+	* 2.5.2 unused version
+	* 2.5.3 unused version
+	* 2.5.4 unused version
+	* 2.5.5 unused version
+	* 2.5.6 unused version
+	* 2.5.7 unused version
+	* 2.5.8 unused version
+	* 2.5.9 unused version
+	* 2.6.0 unused version
+	* 2.6.1 unused version
+	* 2.6.2 unused version
+	* 2.6.3 unused version
+	* 2.6.4 unused version
+	* 2.6.5 unused version
+	* 2.6.6 unused version
+	* 2.6.7 unused version
+	* 2.6.8 unused version
+	* 2.6.9 unused version
+	* 2.7.0 unused version
+	* 2.7.1 unused version
+	* 2.7.2 unused version
+	* 2.7.3 unused version
+	* 2.7.4 unused version
+	* 2.7.5 unused version
+	* 2.7.6 unused version
+	* 2.7.7 unused version
+	* 2.7.8 unused version
+	* 2.7.9 unused version
+	* 2.8.0 unused version
+	* 2.8.1 unused version
+	* 2.8.2 unused version
+	* 2.8.3 unused version
+	* 2.8.4 unused version
+	* 2.8.5 unused version
+	* 2.8.6 unused version
+	* 2.8.7 unused version
+	* 2.8.8 unused version
+	* 2.8.9 unused version
+* ==================== **3.0.0 Featuring Qrcode** ====================
 
 #### :fuelpump: How to contribute
 

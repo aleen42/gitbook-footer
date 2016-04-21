@@ -21,15 +21,35 @@
 
 .header p.title {
   font-size: 2em !important;
-  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
 }
 
 .header p.subtitle {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
+  margin-top: 10px !important;
 }
 
 .header p > sup {
   font-size: 0.8em !important;
   margin-left: 5px !important;
+}
+
+.qrcode {
+  display: flex !important;
+}
+
+.qr-right {
+  vertical-align: top !important;
+  flex: 1;
+}
+
+.right-foot {
+  position: absolute;
+  bottom: 1.2em;
+  right: 0;
+  font-size: 0.6em !important;
+}
+
+.right-foot > p {
+  margin: 3px 0 !important;
 }

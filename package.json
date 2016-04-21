@@ -1,9 +1,9 @@
 {
   "name": "gitbook-plugin-page-footer",
-  "version": "2.1.7",
+  "version": "3.0.0",
   "description": "a gitbook-plugin for generating footer",
   "engines": {
-    "gitbook": ">=2.4.3"
+    "gitbook": ">= 2.4.5"
   },
   "main": "./lib/index.js",
   "scripts": {
@@ -77,6 +77,16 @@
         "title": "Timezone",
         "min": "-16",
         "max": "16"
+      },
+      "qrcode": {
+        "type": "boolean",
+        "default": true,
+        "title": "QRCode"
+      },
+      "baseUri": {
+        "type": "string",
+        "default": "https://aleen42.gitbooks.io/personalwiki/content/",
+        "description": "BaseUri of the first page of your book"
       }
     }
   }
