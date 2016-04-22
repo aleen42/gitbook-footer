@@ -6,6 +6,8 @@
 
 a gitbook-plugin for adding footer.
 
+<img src="./page-footer.png">
+
 #### Installation
 
 ###### NPM Installation
