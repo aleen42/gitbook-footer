@@ -204,6 +204,13 @@ npm test
 	* 2.8.9 unused version
 * ==================== **3.0.0 Featuring Qrcode** ====================
 	* 3.0.1 update style
+	* 3.0.2 unused version
+	* 3.0.3 unused version
+	* 3.0.4 unused version
+	* 3.0.5 unused version
+	* 3.0.6 fix bugs
+	* 3.0.7 justify style for mobile
+	* 3.0.8 justify style for mobile
 
 #### :fuelpump: How to contribute
 
