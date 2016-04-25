@@ -1,77 +1,157 @@
-.page-footer {
+/**
+ * Common Parts
+ */
+
+.footer {
   margin-top: 50px;
-  padding: 10px 0;
+  padding: 10px 0 100px;
   font-size: 12px;
   position: relative
 }
 
-.page-footer a {
-  color: #666!important;
-  text-decoration: underline!important;
-}
-
-.description {
-  float: right;
-}
-
-.header p {
+.paragraph {
   margin: 0 !important;
   line-height: normal !important;
 }
 
-.header p.title {
-  font-size: 2em !important;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
-}
-
-@media screen and (min-width: 720px) {
-  /* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
-  .header p.subtitle {
-    margin-top: 10px !important;
-  }
-
-  .right-foot {
-    position: absolute;
-    bottom: 1.2em;
-    right: 0;
-    font-size: 0.6em !important;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  /* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
-  .header p.subtitle {
-    display: none;
-  }
-
-  .right-foot {
-    font-size: 0.6em !important;
-  }
-}
-
-.header p > sup {
+.super {
   font-size: 0.8em !important;
   margin-left: 5px !important;
 }
 
-.qrcode {
+
+/**
+ *
+ *
+ * 
+ * Normal Style
+ *
+ *
+ *
+ * 
+ */
+
+.footer__container--normal {
   display: flex !important;
 }
 
-.qrcode > img {
+.footer__container--normal > img {
   width: 29% !important;
   height: 29% !important;
 }
 
-.qr-right {
+.footer__description--normal {
   padding: 0 10px !important;
   vertical-align: top !important;
   flex: 1;
 }
 
+.footer__author--normal {
+  font-size: 2em !important;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
 
+.footer__modifyTime--normal {
+  float: right;
+}
 
-.right-foot > p {
+@media screen and (min-width: 720px) {
+  /* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
+  .footer__quote--normal {
+    margin-top: 10px !important;
+  }
+
+  .footer__main--normal {
+    position: absolute;
+    bottom: 1.2em;
+    right: 0;
+    font-size: 0.6em !important;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  /* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
+  .footer__quote--normal {
+    display: none;
+  }
+
+  .footer__main--normal {
+    font-size: 0.6em !important;
+    text-align: right;
+  }
+}
+
+.footer__main__paragraph--normal {
+  margin: 3px 0 !important;
+}
+
+/**
+ *
+ *
+ * 
+ * Symmetrical Style
+ *
+ *
+ *
+ * 
+ */
+
+.footer__container--symmetrial {
+  text-align: center !important;
+}
+
+.footer__container--symmetrial > img {
+  width: 29% !important;
+  height: 29% !important;
+}
+
+.footer__description--symmetrial {
+  padding: 0 10px !important;
+  vertical-align: top !important;
+  flex: 1;
+}
+
+.footer__author--symmetrial {
+  font-size: 2em !important;
+  margin-left: 0.8em !important;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.footer__modifyTime--symmetrial {
+  float: right;
+}
+
+@media screen and (min-width: 720px) {
+  /* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
+  .footer__quote--symmetrial {
+    margin-top: 10px !important;
+  }
+
+  .footer__main--symmetrial {
+    position: absolute;
+    right: 0;
+    font-size: 0.6em !important;
+    margin-top: 10px !important;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  /* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
+  .footer__quote--symmetrial {
+    display: none;
+  }
+
+  .footer__main--symmetrial {
+    font-size: 0.6em !important;
+    margin-top: 10px !important;
+    text-align: right;
+  }
+}
+
+.footer__main__paragraph--symmetrial {
   margin: 3px 0 !important;
 }

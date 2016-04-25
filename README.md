@@ -211,6 +211,12 @@ npm test
 	* 3.0.6 fix bugs
 	* 3.0.7 justify style for mobile
 	* 3.0.8 justify style for mobile
+	* 3.0.9 support optional styles
+	* 3.1.0 featuring style of symmetrial
+	* 3.1.1 fix bugs
+	* 3.1.2 fix bugs
+	* 3.1.3 fix bugs
+	* 3.1.4 fix bugs
 
 #### :fuelpump: How to contribute
 
