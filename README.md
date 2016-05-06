@@ -6,7 +6,13 @@
 
 a gitbook-plugin for adding footer.
 
+### Normal Style
+
 <img src="./page-footer.png">
+
+### Symmetrial Style
+
+<img src="./page-footer-symmetrial.png">
 
 #### Installation
 
@@ -48,7 +54,8 @@ configuration option can be set as an obj like, and of course you can use a defa
 			"copyrightColor": "#666",
 			"utcOffset": "8",
 			"qrcode": true,
-			"baseUri": "https://aleen42.gitbooks.io/personalwiki/content/"
+			"baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
+			"style": "normal"
 		}
 	}
 }
@@ -217,6 +224,10 @@ npm test
 	* 3.1.2 fix bugs
 	* 3.1.3 fix bugs
 	* 3.1.4 fix bugs
+* ==================== **4.0.0 Featuring Optional Styles** ====================
+	* 4.0.1 modify description of options
+	* 4.0.2 change qrcode's quality and size
+
 
 #### :fuelpump: How to contribute
 
