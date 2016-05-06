@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-page-footer",
-  "version": "4.0.6",
+  "version": "4.0.8",
   "description": "a gitbook-plugin for generating footer",
   "engines": {
     "gitbook": ">= 2.4.5"
@@ -88,10 +88,10 @@
         "default": "https://aleen42.gitbooks.io/personalwiki/content/",
         "description": "BaseUri of the first page of your book"
       },
-      "styles (normal, symmetrial)": {
+      "styles (normal, symmetrical)": {
         "type": "string",
         "default": "normal",
-        "description": "choose your page footer style (normal, symmetrial)"
+        "description": "choose your page footer style (normal, symmetrical)"
       }
     }
   }

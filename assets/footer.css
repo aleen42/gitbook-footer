@@ -104,39 +104,39 @@
  * 
  */
 
-.footer__container--symmetrial {
+.footer__container--symmetrical {
   text-align: center !important;
 }
 
-.footer__description--symmetrial {
+.footer__description--symmetrical {
   padding: 0 10px !important;
   vertical-align: top !important;
   flex: 1;
 }
 
-.footer__author--symmetrial {
+.footer__author--symmetrical {
   font-size: 2em !important;
   margin-left: 0.8em !important;
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
 
-.footer__modifyTime--symmetrial {
+.footer__modifyTime--symmetrical {
   float: right;
 }
 
 @media screen and (min-width: 720px) {
   /* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
-  .footer__quote--symmetrial {
+  .footer__quote--symmetrical {
     margin-top: 10px !important;
   }
 
-  .footer__container--symmetrial > img {
+  .footer__container--symmetrical > img {
     width: 20% !important;
     height: 20% !important;
   }
 
-  .footer__main--symmetrial {
+  .footer__main--symmetrical {
     position: absolute;
     right: 0;
     font-size: 0.6em !important;
@@ -147,22 +147,22 @@
 
 @media screen and (max-width: 720px) {
   /* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
-  .footer__quote--symmetrial {
+  .footer__quote--symmetrical {
     display: none;
   }
 
-  .footer__container--symmetrial > img {
+  .footer__container--symmetrical > img {
     width: 29% !important;
     height: 29% !important;
   }
 
-  .footer__main--symmetrial {
+  .footer__main--symmetrical {
     font-size: 0.6em !important;
     margin-top: 10px !important;
     text-align: right;
   }
 }
 
-.footer__main__paragraph--symmetrial {
+.footer__main__paragraph--symmetrical {
   margin: 3px 0 !important;
 }

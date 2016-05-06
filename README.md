@@ -10,9 +10,9 @@ a gitbook-plugin for adding footer.
 
 <img src="./page-footer.png">
 
-### Symmetrial Style
+### Symmetrical Style
 
-<img src="./page-footer-symmetrial.png">
+<img src="./page-footer-symmetrical.png">
 
 #### Installation
 
@@ -219,7 +219,7 @@ npm test
 	* 3.0.7 justify style for mobile
 	* 3.0.8 justify style for mobile
 	* 3.0.9 support optional styles
-	* 3.1.0 featuring style of symmetrial
+	* 3.1.0 featuring style of symmetrical
 	* 3.1.1 fix bugs
 	* 3.1.2 fix bugs
 	* 3.1.3 fix bugs
@@ -231,6 +231,8 @@ npm test
 	* 4.0.4 change stylesheet
 	* 4.0.5 change stylesheet
 	* 4.0.6 change stylesheet
+	* 4.0.7 hotfix
+	* 4.0.8 hotfix
 
 
 #### :fuelpump: How to contribute
