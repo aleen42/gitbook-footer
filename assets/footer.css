@@ -35,15 +35,11 @@
   display: flex !important;
 }
 
-.footer__container--normal > img {
-  width: 29% !important;
-  height: 29% !important;
-}
-
 .footer__description--normal {
-  padding: 0 10px !important;
+  margin: 0 10px !important;
   vertical-align: top !important;
   flex: 1;
+  position: relative;
 }
 
 .footer__author--normal {
@@ -62,9 +58,14 @@
     margin-top: 10px !important;
   }
 
+  .footer__container--normal > img {
+    width: 20% !important;
+    height: 20% !important;
+  }
+
   .footer__main--normal {
     position: absolute;
-    bottom: 1.2em;
+    bottom: 0;
     right: 0;
     font-size: 0.6em !important;
     text-align: right;
@@ -75,6 +76,11 @@
   /* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
   .footer__quote--normal {
     display: none;
+  }
+
+  .footer__container--normal > img {
+    width: 29% !important;
+    height: 29% !important;
   }
 
   .footer__main--normal {
@@ -102,11 +108,6 @@
   text-align: center !important;
 }
 
-.footer__container--symmetrial > img {
-  width: 29% !important;
-  height: 29% !important;
-}
-
 .footer__description--symmetrial {
   padding: 0 10px !important;
   vertical-align: top !important;
@@ -130,11 +131,16 @@
     margin-top: 10px !important;
   }
 
+  .footer__container--symmetrial > img {
+    width: 20% !important;
+    height: 20% !important;
+  }
+
   .footer__main--symmetrial {
     position: absolute;
     right: 0;
     font-size: 0.6em !important;
-    margin-top: 10px !important;
+    margin-top: 40px !important;
     text-align: right;
   }
 }
@@ -143,6 +149,11 @@
   /* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
   .footer__quote--symmetrial {
     display: none;
+  }
+
+  .footer__container--symmetrial > img {
+    width: 29% !important;
+    height: 29% !important;
   }
 
   .footer__main--symmetrial {

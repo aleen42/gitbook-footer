@@ -227,6 +227,10 @@ npm test
 * ==================== **4.0.0 Featuring Optional Styles** ====================
 	* 4.0.1 modify description of options
 	* 4.0.2 change qrcode's quality and size
+	* 4.0.3 change stylesheet
+	* 4.0.4 change stylesheet
+	* 4.0.5 change stylesheet
+	* 4.0.6 change stylesheet
 
 
 #### :fuelpump: How to contribute
