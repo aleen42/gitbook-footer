@@ -2,7 +2,7 @@
 
 [![Pay](https://img.shields.io/badge/%24-free-%23a10000.svg)](#) [![GitHub issues](https://img.shields.io/github/issues/aleen42/gitbook-footer.svg)](https://github.com/aleen42/gitbook-footer/issues) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/aleen42/gitbook-footer/master/LICENSE) [![Gitter](https://badges.gitter.im/aleen42/gitbook-footer.svg)](https://gitter.im/aleen42/gitbook-footer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) 
 
-[![npm](https://img.shields.io/npm/v/gitbook-plugin-page-footer.svg)](https://www.npmjs.com/package/gitbook-plugin-page-footer) [![Build Status](https://travis-ci.org/aleen42/gitbook-footer.svg?branch=master)](https://travis-ci.org/aleen42/gitbook-footer) [![npm](https://img.shields.io/npm/dm/gitbook-plugin-page-footer.svg)](https://github.com/aleen42/gitbook-footer) [![devDependency Status](https://david-dm.org/aleen42/gitbook-footer/dev-status.svg)](https://david-dm.org/aleen42/gitbook-footer#info=devDependencies)
+[![npm](https://img.shields.io/npm/v/gitbook-plugin-page-footer.svg)](https://www.npmjs.com/package/gitbook-plugin-page-footer) [![Build Status](https://travis-ci.org/aleen42/gitbook-footer.svg?branch=master)](https://travis-ci.org/aleen42/gitbook-footer) [![devDependency Status](https://david-dm.org/aleen42/gitbook-footer/dev-status.svg)](https://david-dm.org/aleen42/gitbook-footer#info=devDependencies) [![npm](https://img.shields.io/npm/dt/gitbook-plugin-page-footer.svg)](https://www.npmjs.com/package/gitbook-plugin-page-footer)
 
 a gitbook-plugin for adding footer.
 
@@ -233,7 +233,7 @@ npm test
 	* 4.0.6 change stylesheet
 	* 4.0.7 hotfix
 	* 4.0.8 hotfix
-
+	* 4.0.9 update readme
 
 #### :fuelpump: How to contribute
 
