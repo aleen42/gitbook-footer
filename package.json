@@ -1,9 +1,9 @@
 {
   "name": "gitbook-plugin-page-footer",
-  "version": "4.0.9",
+  "version": "4.1.9",
   "description": "a gitbook-plugin for generating footer",
   "engines": {
-    "gitbook": ">= 2.4.5"
+    "gitbook": ">=3.0.0-pre.0"
   },
   "main": "./lib/index.js",
   "scripts": {

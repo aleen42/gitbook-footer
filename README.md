@@ -1,10 +1,36 @@
 ## page-footer
 
-[![Pay](https://img.shields.io/badge/%24-free-%23a10000.svg)](#) [![GitHub issues](https://img.shields.io/github/issues/aleen42/gitbook-footer.svg)](https://github.com/aleen42/gitbook-footer/issues) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/aleen42/gitbook-footer/master/LICENSE) [![Gitter](https://badges.gitter.im/aleen42/gitbook-footer.svg)](https://gitter.im/aleen42/gitbook-footer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) 
+[![Pay](https://img.shields.io/badge/%24-free-%23a10000.svg)](#) [![GitHub issues](https://img.shields.io/github/issues/aleen42/gitbook-footer.svg)](https://github.com/aleen42/gitbook-footer/issues) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/aleen42/gitbook-footer/master/LICENSE) [![Gitter](https://badges.gitter.im/aleen42/gitbook-footer.svg)](https://gitter.im/aleen42/gitbook-footer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 [![npm](https://img.shields.io/npm/v/gitbook-plugin-page-footer.svg)](https://www.npmjs.com/package/gitbook-plugin-page-footer) [![Build Status](https://travis-ci.org/aleen42/gitbook-footer.svg?branch=master)](https://travis-ci.org/aleen42/gitbook-footer) [![devDependency Status](https://david-dm.org/aleen42/gitbook-footer/dev-status.svg)](https://david-dm.org/aleen42/gitbook-footer#info=devDependencies) [![npm](https://img.shields.io/npm/dt/gitbook-plugin-page-footer.svg)](https://www.npmjs.com/package/gitbook-plugin-page-footer)
 
 a gitbook-plugin for adding footer.
+
+*Notice that: (Issue [#2](https://github.com/aleen42/gitbook-footer/issues/2)) Gitbook has used engine 3.0.3 to build books recently, and there are some compatible problems about this plugin. Therefore, you can temporarily use version 2.6.7 to build and the configurations(`book.json`) should be like this:*
+
+```json
+{
+    "gitbook": "2.6.7",
+    "plugins": [
+        "page-footer"
+    ],
+    "pluginsConfig": {
+        "page-footer": {
+            "wisdom": "More than a coder, more than a designer",
+            "copyright": "Copyright © aleen42",
+            "author": "Aleen",
+            "qrcode": true,
+            "style": "symmetrical",
+            "timeColor": "#a10000",
+            "utcOffset": "8",
+            "format": "YYYY-MM-DD HH:mm:ss",
+            "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
+            "copyThrightColor": "#666",
+            "description": "update time: "
+        }
+    }
+}
+```
 
 ### Normal Style
 
@@ -234,6 +260,16 @@ npm test
 	* 4.0.7 hotfix
 	* 4.0.8 hotfix
 	* 4.0.9 update readme
+	* 4.1.0 unused version
+	* 4.1.1 unused version
+	* 4.1.2 unused version
+	* 4.1.3 unused version
+	* 4.1.4 unused version
+	* 4.1.5 unused version
+	* 4.1.6 unused version
+	* 4.1.7 unused version
+	* 4.1.8 unused version
+	* 4.1.9 update readme
 
 #### :fuelpump: How to contribute
 
