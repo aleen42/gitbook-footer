@@ -6,7 +6,7 @@
 
 a gitbook-plugin for adding footer.
 
-*Notice that: (Issue [#2](https://github.com/aleen42/gitbook-footer/issues/2)) Gitbook has used engine 3.0.3 to build books recently, and there are some compatible problems about this plugin. Therefore, you can temporarily use version 2.6.7 to build and the configurations(`book.json`) should be like this:*
+*Notice that: (Issue [#2](https://github.com/aleen42/gitbook-footer/issues/2)) Gitbook has used engine 3.0.3 to build books recently, and there are some compatible problems about this plugin. Therefore, you can temporarily use version 2.6.7 to build and the configurations(`book.json`) should be like this (version 4.3.0 has fixed the problem):*
 
 ```json
 {
@@ -42,20 +42,12 @@ a gitbook-plugin for adding footer.
 
 #### Installation
 
-###### NPM Installation
+add the following plugins to your `book.json` and run `gitbook install`
 
-```bash
-npm install page-footer
-cd ./node_modules/page-footer
-npm i
-```
-
-###### Clone Installation
-
-```bash
-git clone https://github.com/aleen42/gitbook-footer.git
-cd gitbook-footer
-npm i
+```json
+{
+    "plugins": ["page-footer"]
+}
 ```
 
 #### Usage
@@ -279,7 +271,8 @@ npm test
 	* 4.2.6 unused version
 	* 4.2.7 unused version
 	* 4.2.8 unused version
-	* 4.2.9 fix bugs of Gitbook engine 3.0.3
+    * 4.2.9 fix bugs of Gitbook engine 3.0.3
+	* 4.3.0 update readme
 
 #### :fuelpump: How to contribute
 
