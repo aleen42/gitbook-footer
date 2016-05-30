@@ -270,6 +270,16 @@ npm test
 	* 4.1.7 unused version
 	* 4.1.8 unused version
 	* 4.1.9 update readme
+	* 4.2.0 unused version
+	* 4.2.1 unused version
+	* 4.2.2 unused version
+	* 4.2.3 unused version
+	* 4.2.4 unused version
+	* 4.2.5 unused version
+	* 4.2.6 unused version
+	* 4.2.7 unused version
+	* 4.2.8 unused version
+	* 4.2.9 fix bugs of Gitbook engine 3.0.3
 
 #### :fuelpump: How to contribute
 
