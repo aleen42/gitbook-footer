@@ -6,32 +6,6 @@
 
 a gitbook-plugin for adding footer.
 
-*Notice that: (Issue [#2](https://github.com/aleen42/gitbook-footer/issues/2)) Gitbook has used engine 3.0.3 to build books recently, and there are some compatible problems about this plugin. Therefore, you can temporarily use version 2.6.7 to build and the configurations(`book.json`) should be like this (version 4.3.0 has fixed the problem):*
-
-```json
-{
-    "gitbook": "2.6.7",
-    "plugins": [
-        "page-footer"
-    ],
-    "pluginsConfig": {
-        "page-footer": {
-            "wisdom": "More than a coder, more than a designer",
-            "copyright": "Copyright © aleen42",
-            "author": "Aleen",
-            "qrcode": true,
-            "style": "symmetrical",
-            "timeColor": "#a10000",
-            "utcOffset": "8",
-            "format": "YYYY-MM-DD HH:mm:ss",
-            "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
-            "copyThrightColor": "#666",
-            "description": "update time: "
-        }
-    }
-}
-```
-
 ### Normal Style
 
 <img src="./page-footer.png">
@@ -39,6 +13,14 @@ a gitbook-plugin for adding footer.
 ### Symmetrical Style
 
 <img src="./page-footer-symmetrical.png">
+
+### Issues Part
+
+in this part, you can specify a repository and show your latest 8 opened issues or pull requests in a book:
+
+*Notice that: because there is a rate limiting for calling GitHub API, so it's suggested to generate a token following the [site](https://github.com/blog/1509-personal-api-tokens). In additional, you can only update this part after rebuilding your books!*
+
+<img src="./issues.png">
 
 #### Installation
 
@@ -73,7 +55,9 @@ configuration option can be set as an obj like, and of course you can use a defa
 			"utcOffset": "8",
 			"qrcode": true,
 			"baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
-			"style": "normal"
+            "issues": true,
+			"repo": "aleen42/PersonalWiki",
+            "style": "normal"
 		}
 	}
 }
@@ -112,29 +96,10 @@ npm test
 	* 1.2.2 debug mode
 	* 1.2.3 debug mode
 	* 1.2.4 debug mode
-	* 1.2.5 unused version
-	* 1.2.6 unused version
-	* 1.2.7 unused version
-	* 1.2.8 unused version
-	* 1.2.9 unused version
-	* 1.3.0 unused version
-	* 1.3.1 unused version
-	* 1.3.2 unused version
 	* ================ **1.3.3 released version** ================
 	* 1.3.4 add title
-	* 1.3.5 unused version
-	* 1.3.6 unused version
-	* 1.3.7 unused version
-	* 1.3.8 unused version
-	* 1.3.9 unused version
-	* 1.4.0 unused version
-	* 1.4.1 unused version
-	* 1.4.2 unused version
 	* ================ **1.4.3 released version** ================
-	* 1.4.4 unused version
-	* 1.4.5 unused version
 	* ================ **1.4.6 released version** ================
-	* 1.4.7 unused version
 	* 1.4.8 update readme
 	* 1.4.9 update readme
 * ==================== **2.0.0 Featuring configuration** ====================
@@ -155,84 +120,9 @@ npm test
 	* 2.1.5 fix bugs
 	* 2.1.6 fix bugs
 	* 2.1.7 update readme
-	* 2.1.8 unused version
-	* 2.1.9 unused version
-	* 2.2.0 unused version
-	* 2.2.1 unused version
-	* 2.2.2 unused version
-	* 2.2.3 unused version
-	* 2.2.4 unused version
-	* 2.2.5 unused version
-	* 2.2.6 unused version
-	* 2.2.7 unused version
-	* 2.2.8 unused version
-	* 2.2.9 unused version
-	* 2.3.0 unused version
-	* 2.3.1 unused version
-	* 2.3.2 unused version
-	* 2.3.3 unused version
-	* 2.3.4 unused version
-	* 2.3.5 unused version
-	* 2.3.6 unused version
-	* 2.3.7 unused version
-	* 2.3.8 unused version
-	* 2.3.9 unused version
-	* 2.4.0 unused version
-	* 2.4.1 unused version
-	* 2.4.2 unused version
-	* 2.4.3 unused version
-	* 2.4.4 unused version
-	* 2.4.5 unused version
-	* 2.4.6 unused version
-	* 2.4.7 unused version
-	* 2.4.8 unused version
-	* 2.4.9 unused version
-	* 2.5.0 unused version
-	* 2.5.1 unused version
-	* 2.5.2 unused version
-	* 2.5.3 unused version
-	* 2.5.4 unused version
-	* 2.5.5 unused version
-	* 2.5.6 unused version
-	* 2.5.7 unused version
-	* 2.5.8 unused version
-	* 2.5.9 unused version
-	* 2.6.0 unused version
-	* 2.6.1 unused version
-	* 2.6.2 unused version
-	* 2.6.3 unused version
-	* 2.6.4 unused version
-	* 2.6.5 unused version
-	* 2.6.6 unused version
-	* 2.6.7 unused version
-	* 2.6.8 unused version
-	* 2.6.9 unused version
-	* 2.7.0 unused version
-	* 2.7.1 unused version
-	* 2.7.2 unused version
-	* 2.7.3 unused version
-	* 2.7.4 unused version
-	* 2.7.5 unused version
-	* 2.7.6 unused version
-	* 2.7.7 unused version
-	* 2.7.8 unused version
-	* 2.7.9 unused version
-	* 2.8.0 unused version
-	* 2.8.1 unused version
-	* 2.8.2 unused version
-	* 2.8.3 unused version
-	* 2.8.4 unused version
-	* 2.8.5 unused version
-	* 2.8.6 unused version
-	* 2.8.7 unused version
-	* 2.8.8 unused version
 	* 2.8.9 unused version
 * ==================== **3.0.0 Featuring Qrcode** ====================
 	* 3.0.1 update style
-	* 3.0.2 unused version
-	* 3.0.3 unused version
-	* 3.0.4 unused version
-	* 3.0.5 unused version
 	* 3.0.6 fix bugs
 	* 3.0.7 justify style for mobile
 	* 3.0.8 justify style for mobile
@@ -252,27 +142,10 @@ npm test
 	* 4.0.7 hotfix
 	* 4.0.8 hotfix
 	* 4.0.9 update readme
-	* 4.1.0 unused version
-	* 4.1.1 unused version
-	* 4.1.2 unused version
-	* 4.1.3 unused version
-	* 4.1.4 unused version
-	* 4.1.5 unused version
-	* 4.1.6 unused version
-	* 4.1.7 unused version
-	* 4.1.8 unused version
 	* 4.1.9 update readme
-	* 4.2.0 unused version
-	* 4.2.1 unused version
-	* 4.2.2 unused version
-	* 4.2.3 unused version
-	* 4.2.4 unused version
-	* 4.2.5 unused version
-	* 4.2.6 unused version
-	* 4.2.7 unused version
-	* 4.2.8 unused version
     * 4.2.9 fix bugs of Gitbook engine 3.0.3
 	* 4.3.0 update readme
+* ==================== **5.0.0 Featuring Issues Style** ====================
 
 #### :fuelpump: How to contribute
 

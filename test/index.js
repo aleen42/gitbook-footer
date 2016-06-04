@@ -4,10 +4,10 @@
  *      |  _  |/ \   ____  ____ __ ___     / ___\/ \   __   _  ____  _
  *      | |_| || |  / __ \/ __ \\ '_  \ _ / /    | |___\ \ | |/ __ \| |
  *      |  _  || |__. ___/. ___/| | | ||_|\ \___ |  _  | |_| |. ___/| |
- *      |_/ \_|\___/\____|\____||_| |_|    \____/|_| |_|_____|\____||_| 
- *                                                                      
+ *      |_/ \_|\___/\____|\____||_| |_|    \____/|_| |_|_____|\____||_|
+ *
  *      ================================================================
- *                 More than a coder, More than a designer              
+ *                 More than a coder, More than a designer
  *      ================================================================
  *
  *
@@ -35,21 +35,21 @@ describe('tests', function () {
 				'timeColor': '#a10000',
 				'copyrightColor': '#a10000'
 			}
-        }).should.to.contain(' \n\n<footer class="footer"><div class="footer__container--normal" alt="\n{{ file.path | convertUri("https://aleen42.gitbooks.io/personalwiki/content/") }}\n">\n{{ file.path | currentUri("https://aleen42.gitbooks.io/personalwiki/content/") }}\n<div class="footer__description--normal"><p class="paragraph footer__author--normal" style="color: #000 !important;">Aleen<sup class="super">&#174;</sup></p><p class="paragraph footer__quote--normal" style="color: #000 !important;">More than a coder, more than a designer</p><div class="footer__main--normal"><p class="paragraph footer__main__paragraph--normal copyright" style="color: #a10000 !important;">Copyright &#169; aleen42 all right reserved， powered by Gitbook</span><p class="paragraph footer__main__paragraph--normal footer__modifyTime--normal" style="color: #a10000 !important;"><span style="color: #666 !important;">modified at</span>\n{{ file.mtime | dateFormat("YYYY-MM-DD HH:mm:ss", 8) }}\n</p></div></div></div></footer>');
+        }).should.to.contain(' \n\n<footer class="footer"><div class="footer__container--normal" alt="\n{{ file.path | convertUri("https://aleen42.gitbooks.io/personalwiki/content/") }}\n">\n{{ file.path | currentUri("https://aleen42.gitbooks.io/personalwiki/content/") }}\n<div class="footer__description--normal"><p class="paragraph footer__author--normal" style="color: #000 !important;">Aleen<sup class="super">&#174;</sup></p><p class="paragraph footer__quote--normal" style="color: #000 !important;">More than a coder, more than a designer</p><div class="footer__main--normal"><p class="paragraph footer__main__paragraph--normal copyright" style="color: #a10000 !important;">Copyright &#169; aleen42 all right reserved， powered by Gitbook</span><p class="paragraph footer__main__paragraph--normal footer__modifyTime--normal" style="color: #a10000 !important;"><span style="color: #666 !important;">modified at</span>\n{{ file.mtime | dateFormat("yyyy-MM-dd hh:mm:ss", 8) }}\n</p></div></div></div><div>\n{{ "aleen42/PersonalWiki" | listRepo("12fcb9507c9819feb9ad13ec7d38ceb3c5fc506f") }}\n</div></footer>');
     });
 
     it('test case 2', function () {
-        gitbookFooter.test({}).should.to.contain(' \n\n<footer class="footer"><div class="footer__container--normal" alt="\n{{ file.path | convertUri("https://aleen42.gitbooks.io/personalwiki/content/") }}\n">\n{{ file.path | currentUri("https://aleen42.gitbooks.io/personalwiki/content/") }}\n<div class="footer__description--normal"><p class="paragraph footer__author--normal" style="color: #000 !important;">Aleen<sup class="super">&#174;</sup></p><p class="paragraph footer__quote--normal" style="color: #000 !important;">More than a coder, more than a designer</p><div class="footer__main--normal"><p class="paragraph footer__main__paragraph--normal copyright" style="color: #666 !important;">Copyright &#169; aleen42 all right reserved， powered by Gitbook</span><p class="paragraph footer__main__paragraph--normal footer__modifyTime--normal" style="color: #666 !important;"><span style="color: #666 !important;">modified at</span>\n{{ file.mtime | dateFormat("YYYY-MM-DD HH:mm:ss", 8) }}\n</p></div></div></div></footer>');
+        gitbookFooter.test({}).should.to.contain(' \n\n<footer class="footer"><div class="footer__container--normal" alt="\n{{ file.path | convertUri("https://aleen42.gitbooks.io/personalwiki/content/") }}\n">\n{{ file.path | currentUri("https://aleen42.gitbooks.io/personalwiki/content/") }}\n<div class="footer__description--normal"><p class="paragraph footer__author--normal" style="color: #000 !important;">Aleen<sup class="super">&#174;</sup></p><p class="paragraph footer__quote--normal" style="color: #000 !important;">More than a coder, more than a designer</p><div class="footer__main--normal"><p class="paragraph footer__main__paragraph--normal copyright" style="color: #666 !important;">Copyright &#169; aleen42 all right reserved， powered by Gitbook</span><p class="paragraph footer__main__paragraph--normal footer__modifyTime--normal" style="color: #666 !important;"><span style="color: #666 !important;">modified at</span>\n{{ file.mtime | dateFormat("yyyy-MM-dd hh:mm:ss", 8) }}\n</p></div></div></div><div>\n{{ "aleen42/PersonalWiki" | listRepo("12fcb9507c9819feb9ad13ec7d38ceb3c5fc506f") }}\n</div></footer>');
     });
 
     it('test case 3', function () {
         gitbookFooter.test({
 			'page-footer': {
 				'description': 'Updated at',
-				'format': 'YYYY-MM-DD HH:mm:ss',
+				'format': 'yyyy-MM-dd hh:mm:ss',
 				'copyright': 'Copyright &#169; tester',
 				'timeColor': '#a10000'
 			}
-        }).should.to.contain(' \n\n<footer class="footer"><div class="footer__container--normal" alt="\n{{ file.path | convertUri("https://aleen42.gitbooks.io/personalwiki/content/") }}\n">\n{{ file.path | currentUri("https://aleen42.gitbooks.io/personalwiki/content/") }}\n<div class="footer__description--normal"><p class="paragraph footer__author--normal" style="color: #000 !important;">Aleen<sup class="super">&#174;</sup></p><p class="paragraph footer__quote--normal" style="color: #000 !important;">More than a coder, more than a designer</p><div class="footer__main--normal"><p class="paragraph footer__main__paragraph--normal copyright" style="color: #666 !important;">Copyright &#169; tester all right reserved， powered by Gitbook</span><p class="paragraph footer__main__paragraph--normal footer__modifyTime--normal" style="color: #a10000 !important;"><span style="color: #666 !important;">Updated at</span>\n{{ file.mtime | dateFormat("YYYY-MM-DD HH:mm:ss", 8) }}\n</p></div></div></div></footer>');
+        }).should.to.contain(' \n\n<footer class="footer"><div class="footer__container--normal" alt="\n{{ file.path | convertUri("https://aleen42.gitbooks.io/personalwiki/content/") }}\n">\n{{ file.path | currentUri("https://aleen42.gitbooks.io/personalwiki/content/") }}\n<div class="footer__description--normal"><p class="paragraph footer__author--normal" style="color: #000 !important;">Aleen<sup class="super">&#174;</sup></p><p class="paragraph footer__quote--normal" style="color: #000 !important;">More than a coder, more than a designer</p><div class="footer__main--normal"><p class="paragraph footer__main__paragraph--normal copyright" style="color: #666 !important;">Copyright &#169; tester all right reserved， powered by Gitbook</span><p class="paragraph footer__main__paragraph--normal footer__modifyTime--normal" style="color: #a10000 !important;"><span style="color: #666 !important;">Updated at</span>\n{{ file.mtime | dateFormat("yyyy-MM-dd hh:mm:ss", 8) }}\n</p></div></div></div><div>\n{{ "aleen42/PersonalWiki" | listRepo("12fcb9507c9819feb9ad13ec7d38ceb3c5fc506f") }}\n</div></footer>');
     });
 });

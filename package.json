@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-page-footer",
-  "version": "4.3.0",
+  "version": "5.0.0",
   "description": "a gitbook-plugin for generating footer",
   "engines": {
     "gitbook": ">=3.0.0-pre.0"
@@ -28,7 +28,8 @@
   },
   "homepage": "https://github.com/aleen42/gitbook-footer#readme",
   "dependencies": {
-    "moment": "^2.10.6"
+    "sync-request": "^3.0.1",
+    "node-cache": "^3.2.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -75,8 +76,8 @@
         "type": "string",
         "default": "8",
         "title": "Timezone",
-        "min": "-16",
-        "max": "16"
+        "min": "-12",
+        "max": "12"
       },
       "qrcode": {
         "type": "boolean",
@@ -87,6 +88,21 @@
         "type": "string",
         "default": "https://aleen42.gitbooks.io/personalwiki/content/",
         "description": "BaseUri of the first page of your book"
+      },
+      "issues": {
+        "type": "boolean",
+        "default": true,
+        "title": "show issues list for a github repository"
+      },
+      "repo": {
+        "type": "string",
+        "default": "aleen42/PersonalWiki",
+        "description": "user name and the repo name"
+      },
+      "token": {
+        "type": "string",
+        "default": "12fcb9507c9819feb9ad13ec7d38ceb3c5fc506f",
+        "description": "GitHub API token"
       },
       "styles (normal, symmetrical)": {
         "type": "string",
