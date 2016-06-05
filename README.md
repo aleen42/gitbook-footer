@@ -57,6 +57,7 @@ configuration option can be set as an obj like, and of course you can use a defa
 			"baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
             "issues": true,
 			"repo": "aleen42/PersonalWiki",
+			"token": "12fcb9507c9819feb9ad13ec7d38ceb3c5fc506f",
             "style": "normal"
 		}
 	}
@@ -146,6 +147,7 @@ npm test
     * 4.2.9 fix bugs of Gitbook engine 3.0.3
 	* 4.3.0 update readme
 * ==================== **5.0.0 Featuring Issues Style** ====================
+	* 5.0.1 update readme
 
 #### :fuelpump: How to contribute
 
