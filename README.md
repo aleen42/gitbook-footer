@@ -57,7 +57,7 @@ configuration option can be set as an obj like, and of course you can use a defa
 			"baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
             "isShowIssues": true,
 			"repo": "aleen42/PersonalWiki",
-			"token": "12fcb9507c9819feb9ad13ec7d38ceb3c5fc506f",
+			"token": "",
             "style": "normal"
 		}
 	}
@@ -153,6 +153,7 @@ npm test
 	* 5.0.5 update readme
 	* 5.0.6 fix bugs
 	* 5.0.7 fix bugs of issues [#5](https://github.com/aleen42/gitbook-footer/issues/5)
+	* 5.0.8 update readme
 
 #### :fuelpump: How to contribute
 
