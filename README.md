@@ -46,16 +46,16 @@ configuration option can be set as an obj like, and of course you can use a defa
 	"pluginsConfig": {
 		"page-footer": {
 			"description": "modified at",
-			"author": "Aleen",
+			"signature": "Aleen",
 			"wisdom": "More than a coder, more than a designer",
-			"format": "YYYY-MM-DD HH:mm:ss",
+			"format": "yyyy-MM-dd hh:mm:ss",
 			"copyright": "Copyright &#169; aleen42",
 			"timeColor": "#666",
 			"copyrightColor": "#666",
 			"utcOffset": "8",
-			"qrcode": true,
+			"isShowQRCode": true,
 			"baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
-            "issues": true,
+            "isShowIssues": true,
 			"repo": "aleen42/PersonalWiki",
 			"token": "12fcb9507c9819feb9ad13ec7d38ceb3c5fc506f",
             "style": "normal"
@@ -148,6 +148,11 @@ npm test
 	* 4.3.0 update readme
 * ==================== **5.0.0 Featuring Issues Style** ====================
 	* 5.0.1 update readme
+	* 5.0.2 update default config
+	* 5.0.4 fix bugs of issues [#4](https://github.com/aleen42/gitbook-footer/issues/4)
+	* 5.0.5 update readme
+	* 5.0.6 fix bugs
+	* 5.0.7 fix bugs of issues [#5](https://github.com/aleen42/gitbook-footer/issues/5)
 
 #### :fuelpump: How to contribute
 

@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-page-footer",
-  "version": "5.0.1",
+  "version": "5.0.7",
   "description": "a gitbook-plugin for generating footer",
   "engines": {
     "gitbook": ">=3.0.0-pre.0"
@@ -42,7 +42,7 @@
         "default": "modified at",
         "title": "Description for your modified motion"
       },
-      "author": {
+      "signature": {
         "type": "string",
         "default": "Aleen",
         "title": "Author"
@@ -54,7 +54,7 @@
       },
       "format": {
         "type": "string",
-        "default": "YYYY-MM-DD HH:mm:ss",
+        "default": "yyyy-MM-dd hh:mm:ss",
         "title": "Time format"
       },
       "copyright": {
@@ -79,7 +79,7 @@
         "min": "-12",
         "max": "12"
       },
-      "qrcode": {
+      "isShowQRCode": {
         "type": "boolean",
         "default": true,
         "title": "QRCode"
@@ -89,7 +89,7 @@
         "default": "https://aleen42.gitbooks.io/personalwiki/content/",
         "description": "BaseUri of the first page of your book"
       },
-      "issues": {
+      "isShowIssues": {
         "type": "boolean",
         "default": true,
         "title": "show issues list for a github repository"
