@@ -154,6 +154,8 @@ npm test
 	* 5.0.6 fix bugs
 	* 5.0.7 fix bugs of issues [#5](https://github.com/aleen42/gitbook-footer/issues/5)
 	* 5.0.8 update readme
+	* 5.0.9 fix bugs
+	* 5.1.0 fix bugs
 
 #### :fuelpump: How to contribute
 
