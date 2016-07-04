@@ -46,7 +46,8 @@
 }
 
 .issue-label {
-    padding: 3px !important;
+    float: right;
+    padding: 0 3px !important;
     border-radius: 5px;
     margin-left: 10px;
     color: #fff !important;
@@ -59,8 +60,9 @@
 }
 
 .issues {
-    padding: 10px !important;
+    padding: 10px 60px !important;
     margin: 0 !important;
+    text-align: left;
 }
 
 /**

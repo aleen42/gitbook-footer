@@ -156,6 +156,7 @@ npm test
 	* 5.0.8 update readme
 	* 5.0.9 fix bugs
 	* 5.1.0 fix bugs
+	* 5.1.1 update styles
 
 #### :fuelpump: How to contribute
 
