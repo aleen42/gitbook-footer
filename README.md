@@ -159,6 +159,7 @@ npm test
 	* 5.1.1 update styles
 	* 5.1.2 update styles
 	* 5.1.3 update styles
+	* 5.1.4 update font size
 
 #### :fuelpump: How to contribute
 
