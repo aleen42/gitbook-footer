@@ -129,7 +129,7 @@
         position: absolute;
         bottom: 0;
         right: 0;
-        font-size: 0.6em !important;
+        font-size: 12px !important;
         text-align: right;
     }
 }
@@ -144,7 +144,7 @@
         height: 29% !important;
     }
     .footer__main--normal {
-        font-size: 0.6em !important;
+        font-size: 12px !important;
         text-align: right;
     }
 }
@@ -198,7 +198,7 @@
     .footer__main--symmetrical {
         position: absolute;
         right: 0;
-        font-size: 0.6em !important;
+        font-size: 12px !important;
         text-align: right;
         bottom: 0;
     }
@@ -214,7 +214,7 @@
         height: 29% !important;
     }
     .footer__main--symmetrical {
-        font-size: 0.6em !important;
+        font-size: 12px !important;
         margin-top: 10px !important;
         text-align: right;
     }
