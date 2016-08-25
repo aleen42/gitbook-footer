@@ -57,6 +57,7 @@ configuration option can be set as an obj like, and of course you can use a defa
 			"baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
             "isShowIssues": true,
 			"repo": "aleen42/PersonalWiki",
+			"issueNum": 8,
 			"token": "",
             "style": "normal"
 		}
@@ -161,6 +162,7 @@ npm test
 	* 5.1.3 update styles
 	* 5.1.4 update readme
 	* 5.1.5 update readme
+	* 5.1.6 optional issue number
 
 #### :fuelpump: How to contribute
 
