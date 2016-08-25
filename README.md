@@ -163,6 +163,7 @@ npm test
 	* 5.1.4 update readme
 	* 5.1.5 update readme
 	* 5.1.6 optional issue number
+	* 5.1.7 restrict reading book
 
 #### :fuelpump: How to contribute
 
