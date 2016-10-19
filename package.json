@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-page-footer",
-  "version": "5.1.7",
+  "version": "5.1.9",
   "description": "a gitbook-plugin for generating footer",
   "engines": {
     "gitbook": ">=3.0.0-pre.0"
@@ -100,8 +100,8 @@
         "description": "user name and the repo name"
       },
       "issueNum": {
-        "type": "integer",
-        "default": 8,
+        "type": "string",
+        "default": "8",
         "description": "how many issues to show"
       },
       "token": {
