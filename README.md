@@ -168,6 +168,7 @@ npm test
 	* 5.2.0 fix bugs
 	* 5.2.1 fix bugs
 	* 5.2.2 merge pull requests of #6
+	* 5.2.3 update test cases
 
 #### :fuelpump: How to contribute
 
