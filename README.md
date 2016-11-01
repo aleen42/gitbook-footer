@@ -8,11 +8,11 @@ a gitbook-plugin for adding footer.
 
 ### Normal Style
 
-<img src="https://github.com/aleen42/gitbook-footer/raw/master/page-footer.png">
+![page-footer](https://github.com/aleen42/gitbook-footer/raw/master/page-footer.png)
 
 ### Symmetrical Style
 
-<img src="https://github.com/aleen42/gitbook-footer/raw/master/page-footer-symmetrical.png">
+![page-footer](https://github.com/aleen42/gitbook-footer/raw/master/page-footer-symmetrical.png)
 
 ### Issues Part
 
@@ -20,7 +20,7 @@ in this part, you can specify a repository and show your latest 8 opened issues 
 
 *Notice that: because there is a rate limiting for calling GitHub API, so it's suggested to generate a token following the [site](https://github.com/blog/1509-personal-api-tokens). In additional, you can only update this part after rebuilding your books!*
 
-<img src="https://github.com/aleen42/gitbook-footer/raw/master/issues.png">
+![page-footer](https://github.com/aleen42/gitbook-footer/raw/master/issues.png)
 
 ### Installation
 
@@ -170,6 +170,7 @@ npm test
 	* 5.2.2 merge pull requests of #6
 	* 5.2.3 update test cases
 	* 5.2.4 update readme
+	* 5.2.5 update readme
 
 ### :fuelpump: How to contribute
 
