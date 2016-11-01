@@ -22,7 +22,7 @@ in this part, you can specify a repository and show your latest 8 opened issues 
 
 <img src="https://github.com/aleen42/gitbook-footer/raw/master/issues.png">
 
-#### Installation
+### Installation
 
 add the following plugins to your `book.json` and run `gitbook install`
 
@@ -32,7 +32,7 @@ add the following plugins to your `book.json` and run `gitbook install`
 }
 ```
 
-#### Usage
+### Usage
 
 just find plugin on gitbook and install it on your gitbook project.
 
@@ -65,13 +65,13 @@ configuration option can be set as an obj like, and of course you can use a defa
 }
 ```
 
-#### Tests
+### Tests
 
 ```bash
 npm test
 ```
 
-#### Release History
+### Release History
 
 * ==================== **1.0.0 Initial release** ====================
 	* 1.0.1 fix bugs
@@ -170,10 +170,10 @@ npm test
 	* 5.2.2 merge pull requests of #6
 	* 5.2.3 update test cases
 
-#### :fuelpump: How to contribute
+### :fuelpump: How to contribute
 
 Have an idea? Found a bug? See [how to contribute](https://aleen42.gitbooks.io/personalwiki/content/contribution.html).
 
-#### :scroll: License
+### :scroll: License
 
 [MIT](https://aleen42.gitbooks.io/personalwiki/content/MIT.html) © aleen42
