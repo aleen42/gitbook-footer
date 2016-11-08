@@ -171,6 +171,7 @@ npm test
 	* 5.2.3 update test cases
 	* 5.2.4 update readme
 	* 5.2.5 update readme
+	* 5.2.6 update code
 
 ### :fuelpump: How to contribute
 
