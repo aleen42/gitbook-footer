@@ -173,6 +173,7 @@ npm test
 	* 5.2.5 update readme
 	* 5.2.6 update code
 	* 5.2.7 update readme
+	* 5.3.0 calculate a proper color for the text in labels
 
 ### :fuelpump: How to contribute
 
