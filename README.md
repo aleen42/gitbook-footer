@@ -55,11 +55,11 @@ configuration option can be set as an obj like, and of course you can use a defa
 			"utcOffset": "8",
 			"isShowQRCode": true,
 			"baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
-            "isShowIssues": true,
+                        "isShowIssues": true,
 			"repo": "aleen42/PersonalWiki",
 			"issueNum": "8",
 			"token": "",
-            "style": "normal"
+                        "style": "normal"
 		}
 	}
 }
