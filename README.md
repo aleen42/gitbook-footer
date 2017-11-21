@@ -175,6 +175,7 @@ npm test
 	* 5.2.7 update readme
 	* 5.3.0 calculate a proper color for the text in labels
     * 5.3.1 update readme
+    * 5.3.2 fix timezone problem of UTC
 
 ### :fuelpump: How to contribute
 
