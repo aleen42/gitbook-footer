@@ -176,6 +176,7 @@ npm test
 	* 5.3.0 calculate a proper color for the text in labels
     * 5.3.1 update readme
     * 5.3.2 fix timezone problem of UTC
+    * 5.3.3 support GITHUB_TOKEN under travis-ci building
 
 ### :fuelpump: How to contribute
 
