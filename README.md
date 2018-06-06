@@ -178,7 +178,7 @@ npm test
     * 5.3.2 fix timezone problem of UTC
     * 5.3.3 support GITHUB_TOKEN under travis-ci building
     * 5.3.4 fix the number of issues
-    * 5.3.5 fix the problem of [#9](https://github.com/aleen42/gitbook-footer/issues/9) and
+    * 5.3.5 fix the problem of [#9](https://github.com/aleen42/gitbook-footer/issues/9)
 
 ### :fuelpump: How to contribute
 
