@@ -167,7 +167,7 @@ npm test
 	* 5.1.9 update default value
 	* 5.2.0 fix bugs
 	* 5.2.1 fix bugs
-	* 5.2.2 merge pull requests of #6
+	* 5.2.2 merge pull requests of [#6](https://github.com/aleen42/gitbook-footer/issues/6)
 	* 5.2.3 update test cases
 	* 5.2.4 update readme
 	* 5.2.5 update readme
@@ -177,7 +177,8 @@ npm test
     * 5.3.1 update readme
     * 5.3.2 fix timezone problem of UTC
     * 5.3.3 support GITHUB_TOKEN under travis-ci building
-    * 5.3.4 fix issume number
+    * 5.3.4 fix the number of issues
+    * 5.3.5 fix the problem of [#9](https://github.com/aleen42/gitbook-footer/issues/9) and
 
 ### :fuelpump: How to contribute
 
