@@ -116,10 +116,6 @@
 }
 
 @media screen and (min-width: 720px) {
-	.footer__container--normal > img {
-		width: 20% !important;
-		height: 20% !important;
-	}
 	.footer__main--normal {
 		position: absolute;
 		bottom: 0;
@@ -131,9 +127,6 @@
 
 @media screen and (max-width: 720px) {
 	/* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
-	.footer__quote--normal {
-		display: none;
-	}
 	.footer__container--normal > img {
 		width: 29% !important;
 		height: 29% !important;
@@ -186,10 +179,6 @@
 	.footer__quote--symmetrical {
 		margin-top: 10px !important;
 	}
-	.footer__container--symmetrical > img {
-		width: 20% !important;
-		height: 20% !important;
-	}
 	.footer__main--symmetrical {
 		position: absolute;
 		right: 0;
@@ -203,10 +192,6 @@
 	/* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
 	.footer__quote--symmetrical {
 		display: none;
-	}
-	.footer__container--symmetrical > img {
-		width: 29% !important;
-		height: 29% !important;
 	}
 	.footer__main--symmetrical {
 		font-size: 12px !important;
