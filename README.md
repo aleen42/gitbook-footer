@@ -181,6 +181,7 @@ npm test
     * 5.3.5 fix the problem of [#9](https://github.com/aleen42/gitbook-footer/issues/9)
     * 5.3.6 fix style and extend super option
     * 5.3.8 enhancement of styles
+    * 5.3.9 fix style of normal type
 
 ### :fuelpump: How to contribute
 
