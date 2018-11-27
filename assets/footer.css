@@ -111,18 +111,22 @@
 	padding-bottom: 10px;
 }
 
+.footer__quote--normal {
+	word-break: break-all;
+	padding: 10px 0;
+}
+
 .footer__modifyTime--normal {
 	float: right;
 }
 
-@media screen and (min-width: 720px) {
-	.footer__main--normal {
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		font-size: 12px !important;
-		text-align: right;
-	}
+.footer__main--normal {
+	float: right;
+	font-size: 12px !important;
+}
+
+.footer__main__paragraph--normal {
+	margin: 3px 0 !important;
 }
 
 @media screen and (max-width: 720px) {
@@ -131,16 +135,7 @@
 		width: 29% !important;
 		height: 29% !important;
 	}
-	.footer__main--normal {
-		font-size: 12px !important;
-		text-align: right;
-	}
 }
-
-.footer__main__paragraph--normal {
-	margin: 3px 0 !important;
-}
-
 
 /**
  *
