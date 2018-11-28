@@ -129,14 +129,6 @@
 	margin: 3px 0 !important;
 }
 
-@media screen and (max-width: 720px) {
-	/* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
-	.footer__container--normal > img {
-		width: 29% !important;
-		height: 29% !important;
-	}
-}
-
 /**
  *
  *
