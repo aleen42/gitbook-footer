@@ -182,6 +182,7 @@ npm test
     * 5.3.6 fix style and extend super option
     * 5.3.8 enhancement of styles
     * 5.3.9 fix style of normal type
+    * 5.4.0 remove style of QRcode within normal type
 
 ### :fuelpump: How to contribute
 
