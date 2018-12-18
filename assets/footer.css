@@ -190,3 +190,16 @@
 .footer__main__paragraph--symmetrical {
 	margin: 3px 0 !important;
 }
+
+/** themes */
+.footer svg > path {
+	fill: #333;
+}
+
+.book.color-theme-1 .footer svg > path {
+	fill: #704214;
+}
+
+.book.color-theme-2 .footer svg > path {
+	fill: #bdcadb;
+}
