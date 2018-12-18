@@ -183,6 +183,7 @@ npm test
     * 5.3.8 enhancement of styles
     * 5.3.9 fix style of normal type
     * 5.4.0 remove style of QRcode within normal type
+    * 5.4.1 compatible style for gitbook themes
 
 ### :fuelpump: How to contribute
 
