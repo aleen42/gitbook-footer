@@ -184,6 +184,7 @@ npm test
     * 5.3.9 fix style of normal type
     * 5.4.0 remove style of QRcode within normal type
     * 5.4.1 compatible style for gitbook themes
+    * 5.4.3 deprecated token access way for GitHub
 
 ### :fuelpump: How to contribute
 
