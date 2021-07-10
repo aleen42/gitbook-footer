@@ -174,17 +174,18 @@ npm test
 	* 5.2.6 update code
 	* 5.2.7 update readme
 	* 5.3.0 calculate a proper color for the text in labels
-    * 5.3.1 update readme
-    * 5.3.2 fix timezone problem of UTC
-    * 5.3.3 support GITHUB_TOKEN under travis-ci building
-    * 5.3.4 fix the number of issues
-    * 5.3.5 fix the problem of [#9](https://github.com/aleen42/gitbook-footer/issues/9)
-    * 5.3.6 fix style and extend super option
-    * 5.3.8 enhancement of styles
-    * 5.3.9 fix style of normal type
-    * 5.4.0 remove style of QRcode within normal type
-    * 5.4.1 compatible style for gitbook themes
-    * 5.4.3 deprecated token access way for GitHub
+	* 5.3.1 update readme
+	* 5.3.2 fix timezone problem of UTC
+	* 5.3.3 support GITHUB_TOKEN under travis-ci building
+	* 5.3.4 fix the number of issues
+	* 5.3.5 fix the problem of [#9](https://github.com/aleen42/gitbook-footer/issues/9)
+	* 5.3.6 fix style and extend super option
+	* 5.3.8 enhancement of styles
+	* 5.3.9 fix style of normal type
+	* 5.4.0 remove style of QRcode within normal type
+	* 5.4.1 compatible style for gitbook themes
+	* 5.4.3 deprecated token access way for GitHub
+	* 5.4.7 use gitbook-color to support light or dark theme
 
 ### :fuelpump: How to contribute
 
