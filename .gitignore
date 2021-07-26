@@ -34,3 +34,6 @@ node_modules
 
 # IDEA
 .idea
+
+# locked dependencies
+package-lock.json

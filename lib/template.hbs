@@ -1,0 +1,22 @@
+<div class="footer">
+    <div class="footer__container--{{style}}">
+        {{#if isShowQRCode}}
+            \{{ file.path | currentURI("{{baseUri}}") }}
+        {{/if}}
+        <div class="footer__description--{{style}}">
+            <p class="paragraph footer__author--{{style}}">{{signature}}<sup class="super">&#174;</sup></p>
+            <p class="paragraph footer__quote--{{style}}">{{wisdom}}</p>
+            <div class="footer__main--{{style}}">
+                <p class="paragraph footer__main__paragraph--{{style}} copyright"
+                   style="color: {{copyrightColor}} !important;">
+                    <span>{{{copyright}}}</span>
+                <p class="paragraph footer__main__paragraph--{{style}} footer__modifyTime--{{style}}"
+                   style="color: {{timeColor}} !important;">
+                    <span style="color: #666 !important;">{{description}}</span>
+                    \{{ file.mtime | dateFormat("{{format}}", {{utcOffset}}) }}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="box__issues">{{{issues}}}</div>
+</div>

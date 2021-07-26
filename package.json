@@ -6,9 +6,7 @@
     "gitbook": ">=3.0.0-pre.0"
   },
   "main": "./lib/index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aleen42/gitbook-footer.git"
@@ -33,88 +31,8 @@
     "node-cache": "3.2.1"
   },
   "devDependencies": {
-    "chai": "3.5.0",
-    "mocha": "2.4.5"
-  },
-  "gitbook": {
-    "properties": {
-      "description": {
-        "type": "string",
-        "default": "modified at",
-        "title": "Description for your modified motion"
-      },
-      "signature": {
-        "type": "string",
-        "default": "Aleen",
-        "title": "Author"
-      },
-      "wisdom": {
-        "type": "string",
-        "default": "More than a coder, more than a designer",
-        "title": "Windom"
-      },
-      "format": {
-        "type": "string",
-        "default": "yyyy-MM-dd hh:mm:ss",
-        "title": "Time format"
-      },
-      "copyright": {
-        "type": "string",
-        "default": "Copyright © aleen42",
-        "title": "Description for your Copyright"
-      },
-      "timeColor": {
-        "type": "string",
-        "default": "#666",
-        "title": "Default color for modifed time"
-      },
-      "copyrightColor": {
-        "type": "string",
-        "default": "#666",
-        "title": "Default color for Copyright"
-      },
-      "utcOffset": {
-        "type": "string",
-        "default": "8",
-        "title": "Timezone",
-        "min": "-12",
-        "max": "12"
-      },
-      "isShowQRCode": {
-        "type": "boolean",
-        "default": true,
-        "title": "QRCode"
-      },
-      "baseUri": {
-        "type": "string",
-        "default": "https://aleen42.gitbooks.io/personalwiki/content/",
-        "description": "BaseUri of the first page of your book"
-      },
-      "isShowIssues": {
-        "type": "boolean",
-        "default": true,
-        "title": "show issues list for a github repository"
-      },
-      "repo": {
-        "type": "string",
-        "default": "aleen42/PersonalWiki",
-        "description": "user name and the repo name"
-      },
-      "issueNum": {
-        "type": "string",
-        "default": "8",
-        "description": "how many issues to show"
-      },
-      "token": {
-        "type": "string",
-        "default": "",
-        "description": "GitHub API token"
-      },
-      "styles (normal, symmetrical)": {
-        "type": "string",
-        "default": "normal",
-        "description": "choose your page footer style (normal, symmetrical)"
-      }
-    }
+    "eslint": "^4.16.0",
+    "eslint-config-aleen42": "^1.0.3",
+    "handlebars": "^4.7.7"
   }
 }
