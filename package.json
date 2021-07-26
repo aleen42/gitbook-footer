@@ -31,8 +31,8 @@
     "node-cache": "3.2.1"
   },
   "devDependencies": {
-    "eslint": "^4.16.0",
-    "eslint-config-aleen42": "^1.0.3",
+    "eslint": "^7.4.0",
+    "eslint-config-aleen42": "^1.0.4",
     "handlebars": "^4.7.7"
   }
 }
