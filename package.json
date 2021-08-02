@@ -27,12 +27,12 @@
   },
   "homepage": "https://github.com/aleen42/gitbook-footer#readme",
   "dependencies": {
+    "handlebars": "^4.7.7",
     "sync-request": "3.0.1",
     "node-cache": "3.2.1"
   },
   "devDependencies": {
     "eslint": "^7.4.0",
-    "eslint-config-aleen42": "^1.0.4",
-    "handlebars": "^4.7.7"
+    "eslint-config-aleen42": "^1.0.4"
   }
 }
