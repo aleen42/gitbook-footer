@@ -181,6 +181,7 @@ The default configuration is:
     * 5.4.3 deprecated token access way for GitHub
     * 5.4.7 use gitbook-color to support light or dark theme
     * 5.4.8 refactor
+    * 5.4.9 fix the dependency problem [#13](https://github.com/aleen42/gitbook-footer/issues/13)
 
 ### :fuelpump: How to contribute
 
