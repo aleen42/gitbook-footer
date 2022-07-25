@@ -182,6 +182,7 @@ The default configuration is:
     * 5.4.7 use gitbook-color to support light or dark theme
     * 5.4.8 refactor
     * 5.4.9 fix the dependency problem [#13](https://github.com/aleen42/gitbook-footer/issues/13)
+    * 5.5.0 eliminate different sizes of labels when changing color mode
 
 ### :fuelpump: How to contribute
 
